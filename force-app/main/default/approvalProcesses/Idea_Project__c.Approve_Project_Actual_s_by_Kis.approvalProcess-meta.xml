@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>EBP_CA__Business_Unit_Name__c</field>
+        <field>EBP_CA__Description__c</field>
+        <field>EBP_CA__Actual_End_Date__c</field>
+        <field>EBP_CA__Actual_Start_Date__c</field>
+        <field>EBP_CA__Business_Unit__c</field>
+        <field>EBP_CA__Cross_Cutting_Team__c</field>
+        <field>EBP_CA__Date_of_Last_Update__c</field>
+        <field>EBP_CA__Expected_End_Date__c</field>
+        <field>EBP_CA__Expected_Start_Date__c</field>
+        <field>EBP_CA__Finance_Billing_Code__c</field>
+        <field>EBP_CA__Finance_Funding__c</field>
+        <field>EBP_CA__Project_Actual_s_Approval_Status__c</field>
+        <field>EBP_CA__Status__c</field>
+        <field>EBP_CA__Strategic_Plan_Pillar__c</field>
+        <field>EBP_CA__Update_Comment__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Set_Project_Actual_s_Approval_Status</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <type>adhoc</type>
+            </approver>
+        </assignedApprover>
+        <label>Update Kis approved status</label>
+        <name>Update_Kis_approved_status</name>
+    </approvalStep>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>EBP_CA__Idea_Project__c.EBP_CA__Status__c</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Approve Project Actual&#39;s by Kis</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

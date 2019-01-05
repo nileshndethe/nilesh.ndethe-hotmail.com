@@ -1,0 +1,13 @@
+Dear {!CampaignMember.FirstName}, 
+
+We extend our heartfelt thanks for your commitment to donate Rs. {!CampaignMember.Amount__c}/- towards our Sakaar cause. 
+
+In today’s fast paced, selfish world, we try to do our bit to give back to society, who has been kind to us. 
+We are very grateful for your contribution. We will get back to you shortly, with more details to complete the transaction.
+
+We also take great pleasure in inviting you to our 16th Anniversary Celebrations, to be held at {!CampaignMember.Campaign_Location__c} on {!CampaignMember.Campaign_Start_Date__c}. 
+ 
+Come and join us as we celebrate with music, entertainment, good food and drinks! 
+
+Thanks again,
+Team Extentia

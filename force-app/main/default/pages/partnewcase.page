@@ -1,0 +1,25 @@
+<apex:page standardController="case" showHeader="false" extensions="mobilecaseadd">
+<apex:image url="{!URLFOR($Resource.SiteSamples, 'img/poweredby.png')}" styleClass="poweredByImage"/>
+ <h1><B>Welcome to our Mobile Support Site</B></h1><br /><br />
+    <apex:form >
+    
+        <apex:pageBlock >
+    
+        <apex:outputtext >Tell us about the problem</apex:outputtext>
+        <br /><br />
+        <apex:inputtextarea value="{!case.description}" rows="3" cols="50"/>
+        <br /><br /><br />
+        <b>Tell us about yourself</b>
+        <br/><br />
+        Your Name <apex:inputfield value="{!case.suppliedname}"/>
+        <br /><br />
+        Email Address <apex:inputfield value="{!case.suppliedemail}"/>
+        <br /><br />
+        Phone Number <apex:inputfield value="{!case.suppliedphone}"/>
+        <br /><br /><br /><br />
+        
+        <apex:commandButton action="{!addcase}" value="Submit"/>
+        </apex:pageBlock>
+    </apex:form>
+
+</apex:page>

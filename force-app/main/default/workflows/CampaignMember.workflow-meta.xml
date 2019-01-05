@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Campaign_notifications</fullName>
+        <description>Send Campaign notifications</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>nilesh.dethe@extentia.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Invitation_For_Campaign</template>
+    </alerts>
+    <rules>
+        <fullName>Send Campaign Notification</fullName>
+        <actions>
+            <name>Send_Campaign_notifications</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>CampaignMember.Status</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <description>Send Campaign Notification</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

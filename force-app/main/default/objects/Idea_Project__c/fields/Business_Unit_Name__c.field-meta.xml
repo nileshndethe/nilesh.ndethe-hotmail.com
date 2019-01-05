@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Unit_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Business Unit Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Strategic_Plan_Pillar__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Asset Management</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Bellwether</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Capital Markets</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Chicago</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Denver TOD</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Design</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Enterprise Advisors</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Enterprise Homes</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Facilities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Grants and Contracts</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Green</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Gulf Coast</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Health and Housing</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Innovation</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Investment Credit</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Investment Legal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>KIS</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Loan Fund</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>MarComm</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Mid-Atlantic</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Northern California</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Ohio</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Pacific Northwest</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Partners Legal</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Partner Sustainability</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Policy</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Resource Development Group</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Southern California</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Structured Finance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Syndication</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Asset Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Capital Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>MarComm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Policy</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Cross-Cutting Team --></label>
+    <name>Cross_Cutting_Team__c</name>
+    <picklistValues>
+        <masterLabel>Advocacy Campaign</masterLabel>
+        <translation><!-- Advocacy Campaign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communities of Opportunity/Housing Security</masterLabel>
+        <translation><!-- Communities of Opportunity/Housing Security --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enterprise Consulting</masterLabel>
+        <translation><!-- Enterprise Consulting --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fundraising Campaign</masterLabel>
+        <translation><!-- Fundraising Campaign --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New Capital Aggregation/Product Development</masterLabel>
+        <translation><!-- New Capital Aggregation/Product Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Products and Services/Increase Production</masterLabel>
+        <translation><!-- Products and Services/Increase Production --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Public Housing Initiative</masterLabel>
+        <translation><!-- Public Housing Initiative --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>State and Local Advocacy/Policy</masterLabel>
+        <translation><!-- State and Local Advocacy/Policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sustainable Connected Communities</masterLabel>
+        <translation><!-- Sustainable Connected Communities --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

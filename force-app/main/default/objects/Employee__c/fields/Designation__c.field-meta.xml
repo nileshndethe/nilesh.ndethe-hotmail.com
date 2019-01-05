@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Designation__c</fullName>
+    <description>Designation for the employee</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose appropriate designation of employee</inlineHelpText>
+    <label>Designation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BA</fullName>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Project Manager</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tech Lead</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

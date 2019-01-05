@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Set_Project_Actual_s_Approval_Status</fullName>
+        <field>Project_Actual_s_Approval_Status__c</field>
+        <formula>&#39;Approved on : &#39;&amp;  SUBSTITUTE(TEXT(Now()), &#39;Z&#39;, &#39;&#39;) &amp;&#39; for Q&#39;&amp; TEXT(CEILING( MONTH ( TODAY()) / 3 )) &amp; &#39; - &#39;&amp; TEXT(YEAR(TODAY()))</formula>
+        <name>Set Project Actual&#39;s Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Project_Status</fullName>
+        <field>Status__c</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Project Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,25 @@
+<apex:page standardController="Employee__c" >
+  <apex:form >
+      <apex:pageBlock title="Create Employee">
+      <apex:pageBlockSection columns="1" title="Employee Information">
+          <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Name"></apex:outputLabel>
+              <apex:inputField label="Name" style="width:200px" value="{!Employee__c.Name}"/>
+          </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Designation"></apex:outputLabel>
+               <apex:inputField label="Designation" style="width:200px" value="{!Employee__c.Designation__c}"/>
+          </apex:pageBlockSectionItem>
+          <apex:pageBlockSectionItem >
+              <apex:outputLabel value="Email Address"></apex:outputLabel>
+              <apex:inputField label="Email Address" style="width:200px" value="{!Employee__c.Email_Id__c}"/>
+          </apex:pageBlockSectionItem>      
+          
+      </apex:pageBlockSection>      
+      <apex:pageBlockButtons >
+      <apex:commandButton value="Create" action="{!Save}"/>     
+      <apex:commandButton value="Cancel" action="{!Cancel}"/>             
+       </apex:pageBlockButtons>
+      </apex:pageBlock>
+  </apex:form>
+</apex:page>

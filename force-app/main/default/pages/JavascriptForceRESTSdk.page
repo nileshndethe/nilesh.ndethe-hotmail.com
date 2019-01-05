@@ -1,0 +1,42 @@
+<apex:page docType="html-5.0" title="File Uploader">
+  <h3>
+    Select a file to upload to Salesforce Content.
+  </h3>
+  <input type="file" id="file" multiple="true" onchange="uploadFiles()"/>
+  <img id="imgUploading" style="display:none" src="http://community.seagate.com/img/loading32.gif"/>
+  <p id="message"></p>
+  <apex:includeScript value="{!URLFOR($Resource.forcetk, 'jquery.js')}" />
+  <apex:includeScript value="{!URLFOR($Resource.forcetk, 'forcetk.js')}"  />
+  <script>
+    var client = new forcetk.Client();
+    client.setSessionToken('{!$Api.Session_ID}');
+   function uploadFiles()
+   {
+           
+           $("#imgUploading").show();
+           alert($("#file").length);
+           $("#file").each(function(index)
+           {         
+               alert(index);  
+               upload($(this)[index].files[index]);
+           });   
+       }
+    function upload(file) {
+                 
+        client.createBlob('ContentVersion', {
+            Origin: 'C', // 'H' for Chatter File, 'C' for Content Document
+            PathOnClient: file.name,
+            FirstPublishLocationId:"05890000000R3Ot",
+        }, file.name, 'VersionData', file, function(response){
+            console.log(response);
+           // alert(response);
+           $("#imgUploading").hide();
+            $("#message").html("Content File Uploaded Successfully: <a target=\"_blank\" href=\"/" + response.id + "\">Take a look!</a>");
+        }, function(request, status, response){
+         $("#imgUploading").hide();
+            $("#message").html("Error: " + status);
+        });
+      return true;
+    }
+  </script>
+</apex:page>

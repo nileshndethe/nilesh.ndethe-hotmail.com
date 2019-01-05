@@ -1,0 +1,5 @@
+<apex:page controller="EmailLimitTesterController" >
+<apex:form >
+<apex:commandButton id="emaillimttest" action="{!emaillimttest}"  value="Test Email Limit"  />
+</apex:form>
+</apex:page>

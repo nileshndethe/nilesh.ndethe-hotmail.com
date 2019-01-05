@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nilesh.dethe@extentia.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/AppLauncher/icon.png</iconUrl>
+    <label>StepUpTest</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/AppLauncher/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>http://localhost:60222/Default.aspx</callbackUrl>
+        <consumerKey>3MVG9Y6d_Btp4xp5xFrfChYgO8mum3tjImbSdVHu4cZLpF44hDG_kuu50ZLhW22A.E9v65X1f_7gse.agnxHd</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+</ConnectedApp>

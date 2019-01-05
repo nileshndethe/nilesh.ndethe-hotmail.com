@@ -1,0 +1,11 @@
+<apex:page showheader="false">
+<apex:image url="{!URLFOR($Resource.SiteSamples, 'img/poweredby.png')}" styleClass="poweredByImage"/>
+ <h1><B>Welcome to our Mobile Support Site</B></h1><br /><br />
+<apex:pageBlock >
+<center>
+  <h1>
+  Thank you for contacting us.  <br/><br />
+  We are sorry to hear that you are having an issue.  We will contact you shortly to resolve it.</h1>
+</center>
+</apex:pageBlock>
+</apex:page>

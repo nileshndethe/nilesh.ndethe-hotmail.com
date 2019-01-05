@@ -1,0 +1,14 @@
+<apex:page controller="helpme" showheader="false">
+<apex:image url="{!URLFOR($Resource.SiteSamples, 'img/poweredby.png')}" styleClass="poweredByImage"/>
+ <h1><B>Welcome to our Mobile Support Site</B></h1><br /><br />
+
+  <apex:form >
+   <apex:pageBlock >
+        <apex:outputLabel for="searchText">Breifly explain the issue</apex:outputLabel><br />
+               <apex:panelGroup >
+                  <apex:inputText size="60" id="srch" value="{!srch}"/>
+                  <apex:commandButton value="Go!" action="{!doSearch}" />
+               </apex:panelGroup>
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>

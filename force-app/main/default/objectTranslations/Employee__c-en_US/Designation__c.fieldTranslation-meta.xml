@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Choose appropriate designation of employee --></help>
+    <label><!-- Designation --></label>
+    <name>Designation__c</name>
+    <picklistValues>
+        <masterLabel>BA</masterLabel>
+        <translation><!-- BA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Developer</masterLabel>
+        <translation><!-- Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PC</masterLabel>
+        <translation><!-- PC --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Manager</masterLabel>
+        <translation><!-- Project Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>QA</masterLabel>
+        <translation><!-- QA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tech Lead</masterLabel>
+        <translation><!-- Tech Lead --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

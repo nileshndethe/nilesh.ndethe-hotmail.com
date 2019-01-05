@@ -1,0 +1,41 @@
+<apex:page standardController="asset" showHeader="false" title="Mobile Support Site">
+ <apex:image url="{!URLFOR($Resource.SiteSamples, 'img/poweredby.png')}" styleClass="poweredByImage"/>
+ <h1><B>Welcome to our Mobile Support Site</B></h1><br /><br />
+ <apex:pageBlock >
+    <table rows="4" columns="3">
+        <tr>
+            <td width="10%">
+            </td>
+            <td width="80%">
+                
+                <h2>
+                Model Number:{!asset.name}
+                <br />
+                <br />
+                Product: {!asset.description}
+                </h2>
+                <br /><br />
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+        <td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <h2>How can we assist you?</h2>
+                <br /><br />
+                <apex:outputlink value="/partknowledge?def_asset_id={!asset.id}">Search the Knowledgebase for Help</apex:outputlink><br /><br />
+                <apex:outputLink value="/partnewcase?&def_asset_id={!asset.id}">Report a Problem</apex:outputlink>
+                <br /><br /><apex:outputlink value="wtai://wp/mc;800-555-2958">Speak to a Support Representative</apex:outputlink><br />
+            </td>
+            <td>
+            </td>
+        </tr>
+  </table>          
+    </apex:pageBlock>
+ 
+</apex:page>

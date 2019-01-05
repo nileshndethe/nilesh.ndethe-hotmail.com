@@ -1,0 +1,48 @@
+<!--<apex:page standardstylesheets="false" showHeader="false">
+<apex:form >
+    <apex:stylesheet value="{!URLFOR($Resource.cssUi, 'cssExample.css')}"/>
+    <h1> This text is displayed using CSS </h1>
+        <apex:commandButton styleclass="button1" value="Click Me!"/>
+        <apex:commandButton styleclass="button2" value="Click Me!"/>
+        <apex:commandlink value="Clik me!"/>
+    </apex:form>
+</apex:page>-->
+<apex:page standardstylesheets="true" showHeader="false" standardController="Account">
+<style>
+.red
+{
+background-color:red;
+}
+.green
+{
+background-color:green;
+}
+.blue
+{
+background-color:blue;
+}
+</style> 
+   <apex:form >
+       <apex:stylesheet value="{!URLFOR($Resource.cssUi, 'cssExample.css')}"/>
+           <apex:commandlink styleclass="button"><span> Save </span> </apex:commandlink>
+           <apex:commandlink styleclass="button"><span> Cancel </span> </apex:commandlink>
+           <apex:pageBlock title="My Content" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!save}" value="Save"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="My Content Section" columns="2">
+                <apex:inputField value="{!account.name}"/>
+                <apex:inputField value="{!account.site}"/>
+                <apex:inputField value="{!account.type}"/>
+                <apex:inputField value="{!account.accountNumber}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+        <h1 style="text-align:center;color:blue;">  This is my first VisualForce Page! </h1>
+<apex:datatable value="{!Account.Contacts}" var="con" border="1" cellspacing="5" cellpadding="5" columnClasses="red,green,blue">
+<apex:column headervalue="Contact FirstName"> <apex:outputfield value="{!con.FirstName}"/> </apex:column>
+<apex:column headervalue="Contact LastName"> <apex:outputfield value="{!con.LastName}"/> </apex:column>
+<apex:column headervalue="Contact Name"> <apex:outputfield value="{!con.Title}"/> </apex:column>
+</apex:datatable>  
+       </apex:form>  
+</apex:page>

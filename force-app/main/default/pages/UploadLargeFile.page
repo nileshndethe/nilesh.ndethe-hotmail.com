@@ -1,0 +1,13 @@
+<apex:page controller="ENT_UploadFile_REST_API">
+    <apex:form >
+        <apex:pageMessages />
+        <apex:pageBlock >            
+            <apex:pageBlockSection title="Upload file">
+                <apex:pageBlockSectionItem >
+                    <apex:inputFile value="{!FileContent}" filename="{!FileName}" /> 
+                    <apex:commandButton action="{!callUploadFile}" value="Upload File" id="theButton" style="width:70px;"/>
+                </apex:pageBlockSectionItem>        	
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

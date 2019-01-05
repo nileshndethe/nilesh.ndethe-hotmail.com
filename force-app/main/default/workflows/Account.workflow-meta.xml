@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Texas_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>nilesh.ndethe@hotmail.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Texas Owner</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Texas Accounts</fullName>
+        <actions>
+            <name>Texas_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Account.BillingState</field>
+            <operation>equals</operation>
+            <value>TX</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+</Workflow>

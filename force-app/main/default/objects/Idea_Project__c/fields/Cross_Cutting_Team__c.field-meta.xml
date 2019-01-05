@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cross_Cutting_Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Cross-Cutting Team</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Strategic_Plan_Pillar__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enterprise Consulting</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>New Capital Aggregation/Product Development</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Communities of Opportunity/Housing Security</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Advocacy Campaign</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Products and Services/Increase Production</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>State and Local Advocacy/Policy</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Sustainable Connected Communities</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Public Housing Initiative</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Fundraising Campaign</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Enterprise Consulting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>Advocacy Campaign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Connections</controllingFieldValue>
+            <controllingFieldValue>Foundation</controllingFieldValue>
+            <controllingFieldValue>Homes</controllingFieldValue>
+            <valueName>State and Local Advocacy/Policy</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

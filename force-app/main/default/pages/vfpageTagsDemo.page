@@ -1,0 +1,6 @@
+<apex:page standardController="Account">
+  <apex:pageBlock title="{!Account.name}"> 
+  <span id="ndid" styleClass="ndclass">
+      <apex:outputField value="{!Account.Name}"  /> 
+      </span>
+</apex:pageBlock></apex:page>

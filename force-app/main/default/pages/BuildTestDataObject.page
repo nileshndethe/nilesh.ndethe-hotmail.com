@@ -1,0 +1,32 @@
+<apex:page sidebar="false" controller="dataObjectController" action="{!initSchema}">
+  <h1>Select Object</h1>
+    
+    <apex:form >
+        <apex:pageBlock title="Select Object">
+            <apex:pageMessages />
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:selectList value="{!selectedObject}" size="1">
+                        Select Object:<apex:selectOptions value="{!objectList}"/>
+                    </apex:selectList>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection >
+                Add Comments<apex:inputCheckBox value="{!addComments}"/> 
+				<!-- Patrick Brinksma - 17 Dec 2012 - Added option to generate only createable fields -->
+                Only Creatable<apex:inputCheckBox value="{!onlyisCreateable}"/>                
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection >            
+                <apex:inputTextarea cols="200" rows="50" value="{!outputObject}" />
+            </apex:pageBlockSection>
+                
+            <apex:pageBlockButtons >
+                <apex:commandButton action="{!buildObject}" value="Build Apex" rendered="true"/>
+                <apex:commandButton action="{!buildSOQL}"   value="Build SOQL" rendered="true"/>
+            </apex:pageBlockButtons>
+            
+        </apex:pageBlock>
+    </apex:form>
+    
+</apex:page>

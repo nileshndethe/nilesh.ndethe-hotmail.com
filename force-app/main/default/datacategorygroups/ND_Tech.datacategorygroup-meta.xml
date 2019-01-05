@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Software Development</label>
+                <name>Software_Development</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Cloud Consulting</label>
+                <name>Cloud_Consulting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Salesforce</label>
+                <name>Salesforce</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mobile Development</label>
+                <name>Mobile_Development</name>
+            </dataCategory>
+            <dataCategory>
+                <label>UX</label>
+                <name>UX</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Marketing</label>
+                <name>Marketing</name>
+            </dataCategory>
+            <label>Services</label>
+            <name>Services</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Software</label>
+                <name>Software</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hardware</label>
+                <name>Hardware</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Issues</label>
+                <name>Issues</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Requests</label>
+                <name>Requests</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Knowledge Base</label>
+                <name>Knowledge_Base</name>
+            </dataCategory>
+            <label>Topics</label>
+            <name>Topics</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>HR</label>
+                <name>HR</name>
+            </dataCategory>
+            <dataCategory>
+                <label>IT</label>
+                <name>IT</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Admin</label>
+                <name>Admin</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Network</label>
+                <name>Network</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Sys Admins</label>
+                <name>Sys_Admins</name>
+            </dataCategory>
+            <label>Departments</label>
+            <name>Departments</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>ND Tech</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

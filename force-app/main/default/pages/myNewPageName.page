@@ -1,0 +1,4 @@
+<apex:page >
+<apex:pageBlock title="Hello {!$User.FirstName }!">
+</apex:pageBlock>
+</apex:page>

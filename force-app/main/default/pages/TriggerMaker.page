@@ -1,0 +1,6 @@
+<apex:page showHeader="true" sidebar="true" controller="TriggerMaker" action="{!init}">
+	<apex:form >
+	<apex:commandButton action="{!createTriggers}" value="Create Triggers"/> &nbsp;&nbsp;
+	<apex:commandButton action="{!updateTriggers}" value="Update Triggers"/>
+	</apex:form>
+</apex:page>

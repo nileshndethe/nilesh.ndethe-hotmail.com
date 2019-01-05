@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Status of the project</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose appropriate status for the project.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Requirement Discovery</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Requirement Analysis</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Quality Analysis (QA)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>User Acceptance Test (UAT)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Production (Live)</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

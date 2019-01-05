@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Business Unit Name --></label>
+    <name>Business_Unit_Name__c</name>
+    <picklistValues>
+        <masterLabel>Asset Management</masterLabel>
+        <translation><!-- Asset Management --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bellwether</masterLabel>
+        <translation><!-- Bellwether --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capital Markets</masterLabel>
+        <translation><!-- Capital Markets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chicago</masterLabel>
+        <translation><!-- Chicago --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Denver TOD</masterLabel>
+        <translation><!-- Denver TOD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design</masterLabel>
+        <translation><!-- Design --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enterprise Advisors</masterLabel>
+        <translation><!-- Enterprise Advisors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Enterprise Homes</masterLabel>
+        <translation><!-- Enterprise Homes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Facilities</masterLabel>
+        <translation><!-- Facilities --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Finance</masterLabel>
+        <translation><!-- Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grants and Contracts</masterLabel>
+        <translation><!-- Grants and Contracts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Green</masterLabel>
+        <translation><!-- Green --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gulf Coast</masterLabel>
+        <translation><!-- Gulf Coast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Health and Housing</masterLabel>
+        <translation><!-- Health and Housing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Human Resources</masterLabel>
+        <translation><!-- Human Resources --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Information Technology</masterLabel>
+        <translation><!-- Information Technology --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Innovation</masterLabel>
+        <translation><!-- Innovation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Credit</masterLabel>
+        <translation><!-- Investment Credit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investment Legal</masterLabel>
+        <translation><!-- Investment Legal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KIS</masterLabel>
+        <translation><!-- KIS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Loan Fund</masterLabel>
+        <translation><!-- Loan Fund --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MarComm</masterLabel>
+        <translation><!-- MarComm --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mid-Atlantic</masterLabel>
+        <translation><!-- Mid-Atlantic --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New York</masterLabel>
+        <translation><!-- New York --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Northern California</masterLabel>
+        <translation><!-- Northern California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ohio</masterLabel>
+        <translation><!-- Ohio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pacific Northwest</masterLabel>
+        <translation><!-- Pacific Northwest --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partner Sustainability</masterLabel>
+        <translation><!-- Partner Sustainability --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partners Legal</masterLabel>
+        <translation><!-- Partners Legal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Policy</masterLabel>
+        <translation><!-- Policy --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resource Development Group</masterLabel>
+        <translation><!-- Resource Development Group --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southeast</masterLabel>
+        <translation><!-- Southeast --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Southern California</masterLabel>
+        <translation><!-- Southern California --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Structured Finance</masterLabel>
+        <translation><!-- Structured Finance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syndication</masterLabel>
+        <translation><!-- Syndication --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

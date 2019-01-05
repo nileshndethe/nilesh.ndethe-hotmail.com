@@ -1,0 +1,10 @@
+<apex:page controller="DyanamicPickListController" >
+ <apex:form >
+  <apex:selectList value="{!SelectedItem}" multiselect="false" size="1" rendered="true">
+            <apex:selectOptions value="{!lstItem}"/>
+  </apex:selectList><p/>
+  <apex:commandButton value="List 1" action="{!GetFirstList}"/>
+  <apex:commandButton value="List 2" action="{!GetSecondList}"/>
+  <apex:commandButton value="Merge List" action="{!MergeLists}"/>
+ </apex:form>
+</apex:page>

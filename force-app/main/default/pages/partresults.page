@@ -1,0 +1,21 @@
+<apex:page controller="helpme" showHeader="false">
+<apex:image url="{!URLFOR($Resource.SiteSamples, 'img/poweredby.png')}" styleClass="poweredByImage"/>
+ <h1><B>Welcome to our Mobile Support Site</B></h1><br /><br />
+
+    <apex:pageblock >
+
+           <apex:pageBlockTable value="{!mylist}" var="l">
+                      
+              <apex:column >
+                <apex:facet name="header">Knowledge Articles</apex:facet>
+                <apex:outputlink value="articles/faq/{!l.UrlName}" >{!l.title}
+                </apex:outputlink>
+              </apex:column>
+
+              </apex:pageBlockTable>
+                 
+    </apex:pageblock>
+    <apex:pageblock >
+        <h1>Don't see a solution here?  Click <apex:outputlink value="/partnewcase?def_asset_id={!theasset.id}"> here</apex:outputlink> to open a case.</h1>
+    </apex:pageblock>
+</apex:page>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Strategic Plan Pillar --></label>
+    <name>Strategic_Plan_Pillar__c</name>
+    <picklistValues>
+        <masterLabel>Connections</masterLabel>
+        <translation><!-- Connections --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foundation</masterLabel>
+        <translation><!-- Foundation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Homes</masterLabel>
+        <translation><!-- Homes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Resources</masterLabel>
+        <translation><!-- Resources --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Systems</masterLabel>
+        <translation><!-- Systems --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

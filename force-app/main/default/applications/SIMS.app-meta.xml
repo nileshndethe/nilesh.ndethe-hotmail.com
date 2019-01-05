@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <description>Strategic Impact Management System</description>
+    <formFactors>Large</formFactors>
+    <label>SIMS</label>
+    <tab>Idea_Project__c</tab>
+    <tab>Action_Plan__c</tab>
+    <tab>Activities__c</tab>
+    <tab>Success_Measure__c</tab>
+</CustomApplication>

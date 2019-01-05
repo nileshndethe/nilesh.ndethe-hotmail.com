@@ -1,0 +1,5 @@
+<apex:page controller="clsController">
+<apex:image value="{!$Resource.banner}" width="100%"/>
+  <apex:pageblock title="Nominate Contacts">
+  </apex:pageblock>
+</apex:page>

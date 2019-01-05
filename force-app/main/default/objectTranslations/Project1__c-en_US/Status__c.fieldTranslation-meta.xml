@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Choose appropriate status for the project. --></help>
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development</masterLabel>
+        <translation><!-- Development --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance</masterLabel>
+        <translation><!-- Maintenance --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production (Live)</masterLabel>
+        <translation><!-- Production (Live) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Analysis (QA)</masterLabel>
+        <translation><!-- Quality Analysis (QA) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requirement Analysis</masterLabel>
+        <translation><!-- Requirement Analysis --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Requirement Discovery</masterLabel>
+        <translation><!-- Requirement Discovery --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Acceptance Test (UAT)</masterLabel>
+        <translation><!-- User Acceptance Test (UAT) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

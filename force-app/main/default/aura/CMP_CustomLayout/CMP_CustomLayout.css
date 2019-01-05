@@ -1,0 +1,29 @@
+.THIS .ui-widget {
+    margin: 36px 0;
+}
+.THIS .contentPanel:before,
+.THIS .contentPanel:after {
+    content: " ";
+    display: table;
+}
+.THIS .contentPanel:after {
+    clear: both;
+}
+.THIS .left {
+    float: left;
+    width: 34%;
+}
+.THIS .right {
+    float: right;
+    width: 33%;
+}
+.THIS .center {  
+    float: right;
+    width: 33%;
+}
+.THIS .full
+{
+    float : left;
+    margin : 5 px;
+    width: 100%;
+}

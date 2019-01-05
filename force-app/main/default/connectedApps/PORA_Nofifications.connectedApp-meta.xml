@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>nilesh.ndethe@hotmail.com</contactEmail>
+    <iconUrl>https://login.salesforce.com/logos/Salesforce/Chatter/icon.png</iconUrl>
+    <label>Property Overview Report Auto-generator App</label>
+    <logoUrl>https://login.salesforce.com/logos/Salesforce/Chatter/logo.png</logoUrl>
+    <oauthConfig>
+        <callbackUrl>resttest:callback</callbackUrl>
+        <consumerKey>3MVG9Y6d_Btp4xp5xFrfChYgO8kh3Ewz5mMR6GszC6NshY_n9ASHSk.vCyYxIbonAmpMt54mLLFxhDAoN_NfX</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>
